@@ -1,19 +1,46 @@
 # ReactRailsModal
 
-Accessible modal dialog component in react-rails.
+Accessible modal dialog component on react-rails.
 
-## Installation
+## Pre Installation
 
-Add `react-rails` and `react_rails_modal` to your gemfile:
+Before using react_rails_modal, install `react-rails`.
+
+Add `react-rails` to your gemfile:
 
 ```ruby
 gem 'react-rails'
+```
+
+And install:
+
+    $ bundle install
+
+Next, run the installation script:
+
+    $ rails g react:install
+
+## Installation
+
+Add `react_rails_modal` to your gemfile:
+
+```ruby
 gem 'react_rails_modal'
 ```
 
 And install:
 
     $ bundle install
+
+Next, run the installation script:
+
+    $ rails g react_rails_modal:install
+
+This will place the following in your `application.js`:
+
+```js
+//= require react_rails_modal
+```
 
 ## Usage
 

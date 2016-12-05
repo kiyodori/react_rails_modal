@@ -6,8 +6,8 @@ require 'react_rails_modal/version'
 Gem::Specification.new do |spec|
   spec.name          = 'react_rails_modal'
   spec.version       = ReactRailsModal::VERSION
-  spec.summary       = 'Accessible modal dialog component in react-rails'
-  spec.description   = 'React_rails_modal creates modal dialog easily in react-rails'
+  spec.summary       = 'Accessible modal dialog component on react-rails'
+  spec.description   = 'React_rails_modal creates modal dialog easily on react-rails'
   spec.homepage      = 'https://github.com/kiyodori/react_rails_modal'
   spec.license       = 'MIT'
 
