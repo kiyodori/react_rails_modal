@@ -55,3 +55,6 @@ This will place the following in your `application.js`:
   <p>Text</p>
 </Modal>
 ```
+
+## Development
+* Update React assets with `rake react_rails_modal:build`

@@ -8,4 +8,5 @@
 /spec/reports/
 /tmp/
 /vendor/bundle
+/react_builds/node_modules/
 /.idea

@@ -1,6 +1,16 @@
-require "bundler/gem_tasks"
-require "rspec/core/rake_task"
+begin
+  require 'bundler/setup'
+rescue LoadError
+  puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
+end
 
-RSpec::Core::RakeTask.new(:spec)
+Bundler::GemHelper.install_tasks
 
-task :default => :spec
+namespace :react_rails_modal do
+  desc "Build the JS bundles with Webpack"
+  task :build do
+    Dir.chdir("react_builds") do
+      `yarn run build`
+    end
+  end
+end
