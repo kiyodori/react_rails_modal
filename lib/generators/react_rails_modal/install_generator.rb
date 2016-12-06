@@ -8,8 +8,6 @@ module ReactRailsModal
 
         if manifest.exist?
           manifest_contents = File.read(manifest)
-          puts manifest_contents.match(/\/\/=\s+require\s+turbolinks\s+\n/)
-          puts manifest_contents.match(/\/\/=\s+require_tree[^\n]*/)
 
           if match = manifest_contents.match(/\/\/=\s+require_tree[^\n]*/)
             inject_into_file manifest, require_react_rails_modal, { before: match[0] }
