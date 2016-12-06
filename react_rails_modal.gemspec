@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rails', '>= 3.2'
   spec.add_development_dependency 'react-rails', '>= 1.7.0'
 
-
   spec.files         = Dir[
     'lib/**/*',
     'README.md',
