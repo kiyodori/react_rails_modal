@@ -194,3 +194,4 @@ In app/assets/stylesheets/:
 
 ## Development
 * Update React assets with `rake react_rails_modal:build`
+* Run tests with `rake spec`
