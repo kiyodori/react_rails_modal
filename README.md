@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/react_rails_modal.svg)](https://badge.fury.io/rb/react_rails_modal)
+
 # ReactRailsModal
 
 Accessible modal dialog component on react-rails.
@@ -45,14 +47,14 @@ This will place the following in your `application.js`:
 ## Usage
 
 ```xml
-<ModalConponent
+<ModalComponent
   isOpen={bool}
   onCloseRequest={requestCloseFunction}
   style={customStyle}
 >
   <h1>Modal Component Content</h1>
   <p>Text</p>
-</Modal>
+</ModalComponent>
 ```
 
 ## Examples
